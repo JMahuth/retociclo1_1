@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Funciones de Message</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
+        <script type="text/javascript" src="./js/MensajesFunctions.js"></script>
+    </head>
+    <body>
+        <h1>Reto01 - Grupo G1 Desarrollo de Software</h1>
+        <h2>Tabla de Message</h1>
+
+        <div id="Datos">
+            <input type="number" id="id" placeholder="id">
+            <input type="text" id="messagetext" placeholder="messagetext">
+        </div>
+        <table border=1> 
+            <tr>
+                 <td><button onclick="addMessage()">Adicionar</button></td>
+                <td><button onclick="listMessage()">Listar</button></td>
+                <td><button onclick="modMessage()">Modificar</button></td>
+            </tr>
+        </table>
+        <div id="Resultado"></div>
+    </body>
+</html>
